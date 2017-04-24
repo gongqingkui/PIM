@@ -1,0 +1,26 @@
+<html>
+	<head>
+	<script>
+		function welcome()
+		{
+			var name = document.getElementById("name").value;
+			var year = document.getElementById("year").value;
+			var month = document.getElementById("month").value;
+			var day = document.getElementById("day").value;
+
+			var todayyear = new Date();
+			alert(name);
+			alert(todayyear.getYear()-year);
+
+			
+		}
+	</script>
+	</head>
+	<body>
+		this is app1 code:<br></br>
+		Name:<input type="text" name="name" id="name" value="Gong Qingkui"></input><br></br>
+		Birthday:<input type="text" name="year" id="year" size=4 maxlength=4 value="1987"></input>-<input type="text" name="month" id="month" size=2 maxlength=2 value="02"></input>-<input type="text" name="day" id="day" size=2 maxlength=2 value=16></input>
+		<input type="button" value="Welcome" onclick="welcome()"></input>
+		<br></br>
+	</body>
+</html>

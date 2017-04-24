@@ -1,0 +1,21 @@
+.pointer{
+ border:1px #FFFFDD solid;
+ cursor:pointer;
+ background-color:#FFFFFF;
+}
+.pointer2{
+ border:1px #9C9C9C solid;
+ cursor:pointer;
+ background-color:#FFFFFF;
+ font-size:12px;
+ color:#0000FF;
+ padding-top:2px;
+}
+div.panel{
+ width:537px;
+ padding-top:3px;
+ padding-left:3px;
+ border:1px solid #9C9C9C;
+ background-color:#FFFFDD;
+ font-size:12px;
+}

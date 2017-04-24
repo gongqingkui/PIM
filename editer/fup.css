@@ -1,0 +1,31 @@
+div.fileup{
+ background-image:url(img/up.gif);
+ width:71px;
+ display:none;
+}
+div.filemax{
+ display:none;
+ font-size:12px;
+ color:#0000FF;
+ padding-left:10px;
+}
+div.filelist{
+ padding-left:20px;
+ height:18px;
+ background-image:url(img/icon.gif);
+ background-repeat: no-repeat;
+}
+div.flist{
+ width:100%;
+ background-color:#EFF9FE;
+ font-size:12px;
+ color:#333333;
+ padding-left:15px;
+ height:5px;
+}
+input.file{
+ width:71px;
+ height:23px;
+ border:0px;
+ filter:alpha(opacity=0);
+}

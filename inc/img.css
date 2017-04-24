@@ -1,0 +1,77 @@
+body{
+	background-image:url("../images/bg.png");
+	background-repeat: no-repeat; 
+}
+/*Layout*/
+#header{height:60px;
+	background-color:#000;
+	padding-top:8px;
+	padding-left:25px;
+	color:white;
+	width:100%;
+
+}
+#menu{
+	width:100%;
+	text-align:left;
+	background-color:#7f7f7f;
+}
+#oper{
+	
+	float:left;
+	width:13%;
+	word-wrap: break-word;
+	text-align:left;
+	padding:5px;
+}
+#main{
+	float:left;
+	width:65%;
+	max-width:80%;
+	word-wrap: break-word; 
+	text-align:left;
+	/*padding:20px;*/
+}
+#sidebar{
+	
+	float:right;
+	width:13%;
+	word-wrap: break-word;
+	text-align:left;
+}
+#footer{
+	clear:both;
+	height:80px;
+	padding-top:28px;
+	color:white;
+	text-align:center;
+	background-image:url("../images/footer.png");
+	background-repeat: repeat-x; 
+	
+}
+#header h1{	
+	color:white;
+}
+th{
+	background:black;
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+}
+tr.color1{
+	background:#FFF;
+}
+tr.color2{
+	background:#BBB;
+}
+img.header{
+}
+input{
+	color:black;
+}
+select{
+	color:black;
+}
+form{
+	color:black;
+}

@@ -1,0 +1,54 @@
+<!--************************************
+ * 17php SimpletextEditer 作者 17php.com
+ * 版本1.2 最后更新2008年3月
+ * SimsmaBBS专用文本编辑器
+ * 使用此代码请保留此信息
+ ************************************-->
+<html>
+<head>
+<link rel="stylesheet" href="17phpediter.css">
+<script language="javascript" src="17phpediter.js"></script>
+</head>
+<body leftmargin=0 topmargin=0>
+<div style="height:32px;letter-spacing:-2px;border-bottom:1px #9c9c9c dashed" class="panel">
+<img  src="emoticons/78.gif" onclick="addemot('78')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/76.gif" onclick="addemot('76')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/79.gif" onclick="addemot('79')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/63.gif" onclick="addemot('63')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/93.gif" onclick="addemot('93')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/60.gif" onclick="addemot('60')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/46.gif" onclick="addemot('46')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/32.gif" onclick="addemot('32')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/31.gif" onclick="addemot('31')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/27.gif" onclick="addemot('27')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/20.gif" onclick="addemot('20')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/13.gif" onclick="addemot('13')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/9.gif" onclick="addemot('9')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/5.gif" onclick="addemot('5')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/1.gif" onclick="addemot('1')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/21.gif" onclick="addemot('21')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/4.gif" onclick="addemot('4')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+<img  src="emoticons/15.gif"  onclick="addemot('15')" class="pointer" onmouseover="imgmousein(this);" onmouseout="imgmouseout(this);">
+
+</div>
+<div style="border-top:none;height:28px;" class="panel">
+<div style="display:inline;width:450px;">
+&nbsp;<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaret('title_content','[B]','[/B]',0);" value="粗体" title="文字加粗"> 
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaret('title_content','[I]','[/I]',0);" value="斜体" title="文字倾斜"> 
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaret('title_content','[U]','[/U]',0);" value="下划" title="文字下划线"> 
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaretCOLOR();" value="字色" title="设置文字颜色">
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaretSIZE();" value="字号" title="设置文字大小（单位为px）">
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaretURL();" value="链接" title="添加超链接"> 
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaretIMG();" value="图片" title="插入远程图片"> 
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaret('title_content','[HR]','',1);" value="横线" title="插入水平线">
+<input type=button class="pointer2" onmouseover="btnmousein(this);" onmouseout="btnmouseout(this);" onClick="insertAtCaret('title_content','[CODE]\n','\n[/CODE]',0);" value="代码" title="嵌入代码块">
+<input type="checkbox" name="C1" checked onclick="ubb(this);">UBB模式</div>
+</div>
+<div class="panel">
+<textarea rows="20" id="title_content"  style="border:0px; font-size:14px;line-height:120%;width:530px" onSelect='storeCaret(this);' onClick='storeCaret(this);' onKeyUp='storeCaret(this);' onblur='textout(this);'"></textarea>
+</div>
+<script language=javascript>
+ textin();
+</script>
+</body>
+</html>

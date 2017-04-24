@@ -1,0 +1,92 @@
+BODY {
+	MARGIN: 0px; COLOR: #000000; BACKGROUND-COLOR: #ffffff;
+}
+BODY {
+	FONT: 12px Tahoma, Verdana
+}
+TABLE {
+	FONT: 12px Tahoma, Verdana
+}
+INPUT {
+	FONT: 12px Tahoma, Verdana
+}
+SELECT {
+	FONT: 12px Tahoma, Verdana
+}
+TEXTAREA {
+	FONT: 12px Tahoma, Verdana
+}
+A {
+	COLOR: #000080; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+TABLE {
+	COLOR: #000000; BORDER-COLLAPSE: collapse; empty-cells: show
+}
+INPUT {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+SELECT {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+INPUT {
+	HEIGHT: 21px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LEGEND {
+	COLOR: #000000
+}
+#header{
+	height:60px;
+	padding-top:8px;
+	width:100%;
+}
+#menu{
+	width:100%;
+	text-align:left;
+}
+#oper{
+	float:left;
+	width:13%;
+	word-wrap: break-word;
+	text-align:left;
+	padding:5px;
+}
+#main{
+	float:left;
+	width:65%;
+	max-width:80%;
+	word-wrap: break-word; 
+	text-align:left;
+	padding:20px;
+}
+#sidebar{
+	float:right;
+	width:13%;
+	word-wrap: break-word;
+	text-align:left;
+}
+#footer{
+	clear:both;height:50px;
+	text-align:center;
+}
+#header h1{
+	font-size:30px;
+	text-transform:uppercase;
+	letter-spacing:0.3em;
+	padding-top:8px;
+}
+#menu ul{display:inline}
+#menu ul li{margin-left:10px;display:inline;}
+#menu ul li:before{content:"[";}
+#menu ul li:after{contenct:"]";}
+#menu ul li ul li{}
+#menu ul li ul li:before{content:"*";}
+
